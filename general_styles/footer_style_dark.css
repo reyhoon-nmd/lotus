@@ -1,0 +1,11 @@
+footer{
+    font-size: 10px;
+    background-color:rgb(29, 56, 81);
+    width: 100%;
+    border: 2px solid rgb(177, 178, 244);
+    text-align: center;
+}
+
+.color_white{
+    color: whitesmoke;
+}

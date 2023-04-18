@@ -1,0 +1,93 @@
+/* article_style */
+main {
+    padding: 10px;
+    padding-top: 120px;
+}
+
+.border {
+    border: 1px solid rgb(169, 169, 169);
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: 2px solid rgb(99, 109, 15);
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(14, 255, 255);
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+.flex {
+    display: flex;
+}
+
+.margin_15px {
+    margin: 15px;
+}
+
+.justify--around {
+    display: flex;
+    justify-content: space-around;
+}
+
+#RenewableEnergy3 {
+    width: 400px;
+    height: 300px;
+    padding-top: 15px;
+    margin-right: 350px;
+}
+
+.RenewableEnergy4-10 {
+    width: 400px;
+    height: 300px;
+    padding-top: 15px;
+    margin-right: 380px;
+}
+
+#RenewableEnergy5 {
+    width: 300px;
+    height: 300px;
+    padding-top: 15px;
+    margin-right: 380px;
+}
+.RenewableEnergy6-12{
+    width: 450px;
+    height: 300px;
+    padding-top: 15px;
+    margin-right: 300px;
+    padding-left: 30px;
+}
+
+.imgs:hover {
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(360deg);
+}
+
+#people_comment {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#comment_legend {
+    color: darkmagenta;
+    font-size: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.icon_size{
+    width: 20px;
+    height: 20px;
+}

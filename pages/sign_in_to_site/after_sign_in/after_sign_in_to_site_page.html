@@ -1,0 +1,38 @@
+<!-- after sing in_نسخه 1 _29اسفند -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ورود به سایت </title>
+    <link rel="shortcut icon" href="../../../assets/Favicon.png" type="image/x-icon">
+    <link href="../../../general_styles/general_style.css" rel="stylesheet">
+    <link href="../../../general_styles/header_style.css" rel="stylesheet">
+    <link href="../../../general_styles/footer_style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+    <div class="general_border">
+        <h1 class="center font_size40 color_red">تایید کاربر</h1>
+        <h2 class="padding-right10 font_size30 color_blue">کد تایید را وارد کنید:</h2>
+        <h3 class="padding-right10 font_size25 color_blue">کد تایید برای شماره پیامک شد</h3>
+        <input id="textbox" class="middle" type="text" minlength="2" maxlength="10" required>
+        <br>
+
+        <div class="center font_size20 italic">
+            <span id="timer"></span>
+            مانده تا دریافت مجدد کد
+        </div>
+        
+        <br>
+        <button onclick="support()" class="middle padding_left_right_70 font_size20 background_color_for_button" id="support_button">
+            تایید
+        </button>
+        <br>
+        <br>
+    </div>
+
+    <script src="../../../scripts/general_script.js"></script>
+</body>
+
+</html>

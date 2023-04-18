@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> لوتوس </title>
+    <link rel="shortcut icon" href="assets/Favicon.png" type="image/x-icon">
+    <link href="general_styles/general_style.css" rel="stylesheet" id="theme">
+    <link href="general_styles/header_style.css" rel="stylesheet" id="theme_header">
+    <link href="general_styles/footer_style.css" rel="stylesheet" id="theme_footer">
+    <link href="pages/main_page/main_page/style.css" rel="stylesheet" id="special_theme">
+    <link rel="preload" href="general_styles/general_style_dark.css" as="style">
+    <link rel="preload" href="general_styles/header_style_dark.css" as="style">
+    <link rel="preload" href="general_styles/footer_style_dark.css" as="style">
+    <link rel="preload" href="pages/main_page/main_page/style_dark.css" as="style">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+
+<body dir="rtl" id="button-top">
+
+    <header dir="ltr" class="flex">
+        <div class="flex justify--start" id="left-section">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">صفحه اصلی </a>
+                <details onclick="subsets()" id="menu_energies_details">
+                    <summary><a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html">انرژی های نوین</a>
+                    </summary>
+                    <div class="padding-left20">
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#1"
+                            class="font-size20 ">انرژی
+                            نورانی خورشید</a>
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#2" class="font-size20">انرژی
+                            باد</a>
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#3" class="font-size20">
+                            انرژی
+                            موج های دریا</a>
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#4" class="font-size20">
+                            انرژی
+                            برق آبی</a>
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#5" class="font-size20">
+                            انرژی
+                            گرمایی درون زمین </a>
+                        <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html#6" class="font-size20">سوخت
+                            های زیستی(بیومس یا زیست توده) </a>
+                    </div>
+
+                </details>
+
+                <a href="pages/shop_page/shop_page/shopping.html">خرید</a>
+                <a href="pages/news_page/news_page/news_page.html">اخبار</a>
+                <a href="pages/articles_page/articles_page/article.html"> مقاله ها </a>
+                <a href="pages/contact_us/contact_us/contact_us.html">تماس با ما</a>
+                <a href="pages/about_us/about_us/about_us.html">درباره ما</a>
+
+            </div>
+            <img src="assets/menu_icon.png" alt="menu_icon" id="menu" onclick="openNav()">
+
+            <button type="button" onclick="changeTheme()" class="width-height45 margin-left10 dark light">
+                <img src="assets/sun.png" alt="sun icon" id="theme-Icon" class="width-height40">
+            </button>
+
+            <div id="search-box-div">
+                <div class="search-box margin-left10">
+                    <input class="search-txt" type="text" name="" placeholder="...جستجو کنید">
+                    <a href="#" class="search-btn">
+                        <img src="assets/search.png" id="search-img" alt="">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <h1 id="title" class="margin-auto"> شرکت انرژی نوین لوتوس </h1>
+        <div class="flex justify--end" id="right-section">
+            <button id="sing_in_to_site" class="margin-right10"><a
+                    href="pages/sign_in_to_site/before_sign_in/before_sign_in_to_site_page.html">
+                    ورود | ثبت نام</a></button>
+
+            <img id="school-emblem" src="assets/emblem.png" alt="ارم مدرسه">
+        </div>
+
+
+    </header>
+
+    <a href="#button-top"><button type="button" onclick="topFunction()" id="Btn_to_top" title="Go to top"><img
+                src="assets/icon.png" alt="دکمه" id="Btn_to_top_icon"></button>
+    </a>
+
+    <main>
+
+        <div>
+            <h2 class="color_red bold font_size35"> چرا انرژی نوین؟</h2>
+            <p class="padding-right40 color_blue font_size25">امروزه باتوسعه تکنولوژی و رشد جمعیت مصرف‌گرا تامین
+                انرژی
+                پایدار، مطمئن و پاک از جمله چالش‌های
+                اساسی
+                جوامع بشری است. باتوجه به محدود بودن منابع تجدیدناپذیر و مشکلات زیست‌محیطی ناشی از مصرف آن‌ها،
+                نخبگان و تصمیم‌گیران کشورهای مختلف برآن شده‌اند که دیگر منابع انرژی را از جمله منابع تجدیدپذیر
+                را به
+                عنوان منبع انرژی آینده و پایدار انتخاب کنند.</p>
+        </div>
+
+        <div>
+            <h3 class="color_green_rgb font_size30 center">*قسمت های مختلف سایت*</h3>
+            <br>
+            <br>
+            <div class="justify--around">
+                <a href="pages/about_us/about_us/about_us.html" target="_blank" class="tooltip">
+                    <img src="pages/main_page/media/about-us-icon.png" alt="about-us-icon"
+                        class="icons icons_border icons_width_height background_color_white">
+                    <span class="tooltiptext"> درباره ما </span>
+                </a>
+                <a href="pages/news_page/news_page/news_page.html" target="_blank" class="tooltip">
+                    <img src="pages/main_page/media/news-icon.png" alt="news-icon"
+                        class="icons icons_border icons_width_height background_color_white">
+                    <span class="tooltiptext">اخبار</span>
+                </a>
+                <a href="pages/contact_us/contact_us/contact_us.html" target="_blank" class="tooltip">
+                    <img src="pages/main_page/media/contact-us-icon.jpg" alt="contact-us-icon"
+                        class="icons icons_border icons_width_height background_color_white">
+                    <span class="tooltiptext">ارتباط با ما</span>
+                </a>
+                <a href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html" target="_blank"
+                    class="tooltip"><img src="pages/main_page/media/renewable-energy-icon.jpg"
+                        alt="renewable-energy-icon" class="icons icons_border icons_width_height">
+                    <span class="tooltiptext">انرژی نوین</span>
+                </a>
+
+                <a href="pages/shop_page/shop_page/shopping.html" target="_blank" class="tooltip"><img
+                        src="pages/main_page/media/shop-icon.png" alt="shop-icon"
+                        class="icons icons_border icons_width_height background_color_white">
+                    <span class="tooltiptext">فروشگاه</span>
+                </a>
+                <a href="pages/articles_page/articles_page/article.html" target="_blank" class="tooltip">
+                    <img src="pages/main_page/media/Article-icon.png" alt="Article"
+                        class="icons icons_border icons_width_height background_color_white">
+                    <span class="tooltiptext">مقاله ها </span>
+                </a>
+
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <h3 class="color_green_rgb font_size30 center"> *محبوب ترین مطالب سایت*</h3>
+
+            <div class="border ">
+                <div class="justify--around">
+                    <p class="padding-10px color_blue font_size20">
+                        انرژی نو یا انرژی جایگزین به آن دسته از انرژی‌ها
+                        گفته می‌شود که برای تولیدشان از منابع بدون کربن استفاده می‌گردد. زمین را آلوده نمی کنند -
+                        باعث گرمایش جهانی نمی شوند- به طور مداوم جایگزین شوند - هیچ وقت تمام نمی شوند. مانند... .
+                        <br>
+                        خورشید یک راکتور طبیعی هسته ای بزرگ می باشد که روزانه تنها مقدار اندکی از انرژی ساطع شده از
+                        آن به جو زمین می رسد. بخشی از این انرژی بر اثر انعکاس به فضا باز می گردد بخشی از آن پس از
+                        رسیدن به سطح زمین در دریاها و خشکی... .
+                        <br>
+                        علل ایجاد باد اختلاف دمای مناطق ساحلی (خشکی و دریا). در خشکی ها تغییرات دما با سرعت بیشتری
+                        انجام می پذیرد و بنابراین خشکی ها... .
+                    </p>
+                    <img src="pages/main_page/media/RenewableEnergy.jpg" alt="RenewableEnergy" id="RenewableEnergy"
+                        class="imgs">
+                    <img src="pages/main_page/media/RenewableEnergy2.png" alt="RenewableEnergy" id="RenewableEnergy2"
+                        class="imgs">
+                </div>
+                <button class="margin_15px padding_top_bottom_5px padding_left_right_15px background_color_pink"><a
+                        href="pages/RenewableEnergy/RenewableEnergy/RenewableEnergy.html" target="_blank">بیشتر بخوانید
+                    </a></button>
+            </div>
+            <br>
+            <div class="border">
+                <br>
+                <div class="justify--around">
+
+                    <p class="padding-10px color_blue font_size20">
+                        عنوان: بررسی عملکرد مدیریت نوآوری در سازمان انرژی های
+                        نو ایران (سانا)
+                        <br>
+                        نویسنده: محمدرضا طالبی
+                        <br>
+                        امروزه عملکرد مناسب در مدیریت نوآوری می تواند به شکل
+                        فزاینده ای عامل موفقیت سازمان‌ها در بلند مدت باشد. ارزیابی و
+                        بررسی میزان عملکرد مدیریت نوآوری می تواند مدیران سازمان را در سرمایه گذاری ها، سوق دادن منابع
+                        سازمان به مسیر مناسب
+                        و نیز اکتساب روش‌های مناسب جهت کسب تکنولوژی های جدید کمک نماید. از آنجا که فعالیت‌های سازمان
+                        انرژی های نو
+                        ایران (سانا) در راستای تولید برق از منابع تجدید پذیر و در کل نوآوری در تولید برق در صنعت برق
+                        کشور می باشد، این تحقیق
+                        میزان عملکرد مدیریت نوآوری را مورد سنجش و مطالعه قرار داده و نقاط ضعف و قوت سازمان را در شاخص ها
+                        و عوامل موثر بر
+                        عملکرد مدیریت نوآوری سازمان مشخص می نماید. ...
+                    </p>
+                    <br>
+                    <img src="pages/main_page/media/RenewableEnergy3.jpg" alt="RenewableEnergy3"
+                        class="imgs Articles_RenewableEnergy">
+
+                </div>
+
+                <button class="margin_15px padding_top_bottom_5px padding_left_right_15px background_color_pink"><a
+                        href="pages/articles_page/articles_page/article.html" target="_blank">بیشتر بخوانید
+                    </a></button>
+            </div>
+
+            <br>
+            <div class="border">
+                <br>
+                <div class="justify--around">
+                    <p class="padding-10px color_blue font_size20">
+                        عنوان: آخرین وضعیت انرژی های نو در ایران
+                        <br>
+                        نویسنده: مجتبی درویش توانگر | سمیه سادات فانی یزدی | هاشم خویی
+                        <br>
+                        استفاده از منابع تجدید پذیر انرژی به جای منابع فسیلی امری الزامی است. سیستم های جدید انرژی در
+                        آینده باید متکی به تغییرات ساختاری و بنیادی باشد که در آن منابع انرژی بدون کربن نظیر انرژی
+                        خورشیدی و بادی و زمین گرمایی و کربن خنثی مانند بیوماس(Biomass) مورد استفاده قرار می گیرند. بدون
+                        تردید انرژی های تجدیدپذیر با توجه به سادگی فناوری‌شان در مقابل فناوری انرژی هسته‌ای از یک طرف و
+                        نیز به دلیل عدم ایجاد مشکلاتی نظیر زباله‌های اتمی از طرف دیگر ...
+                    </p>
+                    <img src="pages/main_page/media/RenewableEnergy4.jpg" alt="RenewableEnergy4"
+                        class="imgs Articles_RenewableEnergy">
+                </div>
+                <button class="margin_15px padding_top_bottom_5px padding_left_right_15px background_color_pink"><a
+                        href="pages/articles_page/articles_page/article.html" target="_blank">بیشتر بخوانید
+                    </a></button>
+
+            </div>
+            <br>
+            <div class="border">
+                <br>
+                <div class="justify--around">
+                    <p class="padding-10px color_blue font_size20">
+                        عنوان: انرژی های نو و تجدیدپذیر راهی برای کاهش اتکای صرف به انرژی های فسیلی
+                        <br>
+                        نویسنده: علی اباذری | حسین حسین زاده
+                        <br>
+                        با توجه به کاهش روز افزون انرژی‌های فسیلی مانند نفت، گاز و زغال سنگ و آلودگی ناشی از مصرف این
+                        سوخت ها، امروزه
+                        استفاده از انرژی‌های نو بسیار مورد توجه قرار گرفته است. به طوری که با توجه به اهمیت روزافزون
+                        انرژی
+                        در معادلات جهانی و
+                        به تبع آن اهمیت امنیت عرضه و تقاضای انرژی در بین کشورهای تولیدکننده و مصرف کننده انرژی، داشتن یک
+                        «راهبرد
+                        انرژی» جامع، منسجم، هدفمند و در برگیرنده همه ابعاد برای نیل به اهداف چشم انداز یک اولویت اساسی
+                        است. ...
+                    </p>
+                    <img src="pages/main_page/media/RenewableEnergy5.jpg" alt="RenewableEnergy5"
+                        class="imgs Articles_RenewableEnergy">
+                </div>
+                <button class="margin_15px padding_top_bottom_5px padding_left_right_15px background_color_pink"><a
+                        href="pages/articles_page/articles_page/article.html" target="_blank">بیشتر بخوانید
+                    </a></button>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <h3 class="color_green_rgb font_size30 center"> *محبوب ترین کالاهای سایت*</h3>
+            <div class="justify--around">
+                <a href="pages/shop_page/shop_page/shopping.html">
+                    <div class="box-shadow">
+                        <img src="pages/shop_page/media/275W.jpg" alt="275W" class="panel_img">
+                        <p class="center"> پنل خورشیدی 275 وات پلی کریستال برند AESOLAR </p>
+                        <br>
+                    </div>
+                </a>
+                <a href="pages/shop_page/shop_page/shopping.html">
+                    <div class="box-shadow">
+                        <img src="pages/shop_page/media/80W.jpg" alt="80W" class="panel_img">
+                        <p class="center">پنل خورشیدی 80 وات مونو کریستال YINGLI مدل YL80C-18b</p>
+                    </div>
+                </a>
+                <a href="pages/shop_page/shop_page/shopping.html">
+                    <div class="box-shadow">
+                        <img src="pages/shop_page/media/50W.jpg" alt="50W" class="panel_img">
+                        <p class="center"> پنل خورشیدی 50 وات مونو کریستال YINGLI مدل YL50C-18b </p>
+                    </div>
+                </a>
+                <a href="pages/shop_page/shop_page/shopping.html">
+                    <div class="box-shadow">
+                        <img src="pages/shop_page/media/330W.jpg" alt="330W" class="panel_img">
+                        <p class="center"> پنل خورشیدی ترینا سولار 330 وات پلی کریستال مدل TSM-330 PE14A </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <h3 class="color_green_rgb font_size30 center"> *محبوب ترین اخبار سایت*</h3>
+            <a href="pages/news_page/news/news.html">
+                <div class="flex border padding-10px">
+                    <img src="pages/news_page/media/1.png" alt="1" class="img1 imgs"
+                        title="مزرعه فراساحلی تولید انرژی بادی هلند در دریای شمال">
+                    <div class="padding-right10">
+                        <h2 class="font_size25">هلند روسیه را به تلاش برای خرابکاری در تاسیسات انرژی دریای شمال متهم
+                            کرد.
+                        </h2>
+                        <p class="font_size20 color_gray">دو آژانس اطلاعاتی هلند در گزارش مشترک خود یادآور شدند که
+                            «تهدیدهای
+                            پنهانی روسیه» علیه منابع تامین آب
+                            و
+                            انرژی این کشور به خوبی قابل تصور است.</p>
+                        <p class="font_size20 color_gray">20/02/2023</p>
+                    </div>
+                </div>
+            </a>
+            <br>
+            <a href="pages/news_page/news/news2.html">
+                <div class="flex border padding-10px">
+                    <img src="pages/news_page/media/2.png" alt="2" class="img1 imgs"
+                        title=" اتش سوزی در نزدیکی آتن، پایتخت یونان (تابستان 2021)">
+                    <div class="padding-right10">
+                        <h2 class="font_size25">تغییرات آب و هوایی به روایت آمار؛ گرمایش زمین چه تاثیری بر زندگی
+                            اروپایی‌ها
+                            گذاشته است؟</h2>
+                        <p class="font_size20 color_gray">تابستان گذشته رکورد گرما در بسیاری از کشورهای اروپایی شکسته
+                            شد.
+                            این در حالی است که تابستان ۲۰۲۲ پنجمین یا ششمین تابستان گرم تاریخ کره زمین از زمان آغاز ثبت
+                            داده‌های هواشناسی بود.</p>
+                        <p class="font_size20 color_gray">08/02/2023</p>
+                    </div>
+                </div>
+            </a>
+            <br>
+            <a href="pages/news_page/news/news3.html">
+                <div class="flex border padding-10px">
+                    <img src="pages/news_page/media/3.png" alt="3" class="img1 imgs"
+                        title="ازمایش همجوشی هسته‌ای در امریکا">
+                    <div class="padding-right10">
+                        <h2 class="font_size25">دانشمندان از «پیشرفت تاریخی در علم» رونمایی کردند؛ همجوشی هسته‌ای چطور
+                            زندگی بشر را متحول می‌کند؟</h2>
+                        <p class="font_size20 color_gray">
+                            این فناوری به بشریت امکان می‌دهد تا وابستگی خود را به سوخت‌های فسیلی که منشا اصلی بحران‌های
+                            آب و هوایی، آلایندگی و تغییرات اقلیمی در جهان خوانده می‌شوند، قطع کند.</p>
+                        <p class="font_size20 color_gray">13/12/2022</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <br>
+        <br>
+
+    </main>
+
+    <footer>
+        <dl>
+            <p>
+                <span class="font_size30 color_white">نام و نام خانوادگی:</span>
+                <span class="font_size25 color_green">ریحانه آزادی</span>
+            </p>
+            <p>
+                <span class="font_size30 color_white">اسم مدرسه:</span>
+                <span class="font_size25 color_green"> دبیرستان فرزانگان 2 دوره اول </span>
+            </p>
+            <dt class="font_size30 color_white">راه های ارتباطی:</dt>
+            <dd class="font_size25 padding-right40 color_green">09212501660</dd>
+            <dd class="font_size25 padding-right40 color_green">reyhoonazadi@gmail.com</dd>
+        </dl>
+    </footer>
+
+    <script src="scripts/general_script.js"></script>
+</body>
+
+</html>

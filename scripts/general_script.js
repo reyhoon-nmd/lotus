@@ -44,7 +44,7 @@ function startTimer() {
   }
   document.getElementById('timer').innerHTML =
     m + ":" + s;
-  setTimeout(startTimer, 100);
+  setTimeout(startTimer, 1000);
 }
 function retransmission() {
   document.getElementById('arrival').value = "ورود";

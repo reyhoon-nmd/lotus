@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>ورود به سایت </title>
+    <title>صفحه ورود </title>
     <link rel="shortcut icon" href="../../../assets/Favicon.png" type="image/x-icon">
     <link href="../../../general_styles/general_style.css" rel="stylesheet">
     <link href="../../../general_styles/header_style.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 
 <body dir="rtl">
-    <div class="general_border">
+    <!-- <div class="general_border">
         <h1 class="center font_size40 color_red">ورود کاربر </h1>
         <br>
         <h2 class="padding-right10 font_size25 color_blue">لطفا شماره موبایل یا ایمیل خود را وارد کنید:</h2>
@@ -23,7 +23,20 @@
             id="entrance_button"> ورود</button>
         <br><br>
 
-    </div>
+    </div> -->
+
+    <form action="../../../index.html" method="post" class="login">
+        <h1 class="font_size40 color_red">صفحه ورود  </h1>
+        <input id="textbox" type="text" minlength="2" maxlength="30" required placeholder="نام کاربری">
+        <input id="textbox" type="password" minlength="2" maxlength="30" required placeholder="رمز عبور ">
+        <span>
+            <input type="checkbox" id="rememberme">
+            <label for="rememberme" class="font_size20">مرا به خاطر بسپار</label>
+        </span>
+        <span id="timer" class="font_size20 italic"></span>
+        <input type="submit" value="ورود" id="arrival" onclick="retransmission()">
+    </form>
+    
 
     <script src="../../../scripts/general_script.js"></script>
 

@@ -1,0 +1,138 @@
+main {
+    padding: 15px;
+    padding-top: 110px;
+}
+
+hr {
+    border: 2px solid indigo;
+    margin-top: 25px;
+}
+
+.summary:hover {
+    color: aqua;
+}
+
+/* برای تیتر های ثانویه*/
+.secondary-headlines:link {
+    color: rgb(205, 26, 160);
+}
+
+.secondary-headlines:hover {
+    color: rgb(147, 12, 12);
+}
+.secondary-headlines:visited{
+    color: rgb(205, 26, 160);
+}
+.secondary-headlines:active {
+    color: yellowgreen;
+}
+
+.flex {
+    display: flex;
+}
+
+.imgs:hover {
+    transition: 0.4s;
+    transform: scale(1.3, 1.3);
+    border: 1px solid black;
+}
+
+.group-picture-1-1 {
+    width: 490px;
+    height: 440px;
+}
+
+.group-picture-1-2 {
+    width: 290px;
+    height: 390px;
+}
+
+.group-picture-2 {
+    width: 350px;
+    height: 320px;
+}
+
+.group-picture-3 {
+    width: 900px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll-margin-top {
+    scroll-margin-top: 7rem;
+}
+
+#img10 {
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img11 {
+    width: 550px;
+    height: 250px;
+}
+
+#img12 {
+    width: 350px;
+    height: 240px;
+}
+
+#img14 {
+    width: 350px;
+    height: 240px;
+    margin-right: 250px;
+}
+
+#img15 {
+    width: 350px;
+    height: 240px;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img17 {
+    width: 580px;
+    height: 330px;
+}
+
+#img18 {
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#img19 {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img20 {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comment_legend {
+    color: darkmagenta;
+    font-size: 25px;
+}
+
+#people_comment {
+    margin-right: 10px;
+    margin-left: 10px;
+}

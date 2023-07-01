@@ -1,0 +1,168 @@
+main {
+    padding: 10px;
+    padding-top: 110px;
+}
+
+.border {
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.icons_border {
+    border: 2px solid rgb(140, 178, 215);
+}
+
+.icons_width_height {
+    width: 170px;
+    height: 170px;
+}
+
+.justify--around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify--between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons:hover {
+    transition: 0.4s;
+    transform: scale(1.3, 1.3);
+    border: 4px solid #8163c7;
+}
+
+.flex {
+    display: flex;
+}
+
+#RenewableEnergy {
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+
+}
+
+#RenewableEnergy2 {
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 5px;
+
+}
+
+.Articles_RenewableEnergy {
+    width: 400px;
+    height: 300px;
+    padding-top: 15px;
+    margin-right: 15px;
+    padding-left: 50px;
+}
+
+.padding-10px {
+    padding: 10px;
+}
+
+.imgs:hover {
+    transition: 0.4s;
+    transform: scale(1.3, 1.3);
+}
+
+/*برای دکمه بیشتر بخوانید*/
+.margin_15px {
+    margin: 15px;
+}
+
+.padding_left_right_15px {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padding_top_bottom_5px {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.background_color_pink {
+    background-color: rgb(241, 145, 155);
+}
+
+.background_color_pink:hover {
+    transition: 0.7s;
+    background-color: #ff0090;
+}
+
+a:hover {
+    color: rgb(14, 255, 255);
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: 2px solid rgb(99, 109, 15);
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.panel_img {
+    width: 300px;
+    height: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+.img1 {
+    width: 290px;
+    height: 149px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    display: none;
+    width: 150px;
+    background-color: #8163c7;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    margin-left: -70px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #8163c7 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    display: block;
+}

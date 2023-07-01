@@ -1,0 +1,79 @@
+.general_border{
+    border: 3px solid rgb(89, 48, 99);
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+body{
+    background-color: #d0c4f9;
+}
+/*for input and sing in to site button*/
+/* .middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.login h1{
+    margin: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgb(4, 82, 62);
+    transition: 0.7s;
+}
+.login h1:hover{
+    border-color: rgb(18, 217, 167);
+    font-size: 45px;
+}
+.login input[type="text"], input[type="password"]{
+    margin: 20px;
+    padding: 10px 14px;
+    width: 250px;
+    border-radius: 24px;
+    border: 1px solid rgb(107, 87, 138);
+    transition: 0.5s;
+}
+.login input[type="text"]:focus , input[type="password"]:focus{
+    width: 300px;
+}
+.login input[type="submit"]{
+    background-color: white;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 14px;
+    width: 100px;
+    border-radius: 24px;
+    border: 1px solid rgb(107, 87, 138);
+    transition: 0.6s;
+}
+.login input[type="submit"]:hover{
+    background-color: rgb(107, 87, 138);
+    color: white;
+}
+.login span{
+    margin: 10px;
+}
+/* for sing in to site button
+.padding_left_right_70{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.background_color_for_button{
+    background-color: rgb(178, 163, 228);
+}
+.background_color_for_button:hover{
+    background-color: rgb(142, 115, 230);
+}
+#entrance_button:hover{
+    color:rgb(14, 255, 255);
+}
+#entrance_button:active{
+    color: rgb(198, 47, 47);
+} */

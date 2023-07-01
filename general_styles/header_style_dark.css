@@ -139,10 +139,6 @@ header {
     justify-content: flex-end;
 }
 
-.margin-auto {
-    margin: auto;
-}
-
 .dark{
     background-color: rgb(38, 58, 77);
 }

@@ -138,10 +138,6 @@ header {
     justify-content: flex-end;
 }
 
-.margin-auto {
-    margin: auto;
-}
-
 
 .light{
     background-color: rgb(237, 225, 208);
